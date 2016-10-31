@@ -34,3 +34,17 @@
 */
 
 // YOUR CODE HERE
+
+
+function daysUntilDate(aDate) { // aDate must be in yyyy,mm,dd format!
+  var today = new Date(); //this gives the current date
+  console.log(today); //prints current to the console
+  var inOneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds in one day
+  var diffDays = Math.abs((today.getTime() - aDate.getTime())/(inOneDay));
+  console.log(diffDays);
+
+
+
+
+
+}

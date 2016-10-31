@@ -45,3 +45,19 @@
 */
 
 // YOUR CODE HERE
+
+
+function parseQueryString(stringToSplit) {
+  splitString = stringToSplit.split('=');
+  
+
+
+
+}
+
+
+
+
+
+
+
