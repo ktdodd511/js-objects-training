@@ -42,6 +42,13 @@ x/*
 
 //this one makes no sense
 
+function pingPong() {
+  var table = [{steps: 0}, null, null, null];
+  for (var i=0; i<table.length; i++) {
+    table[0].steps = 1;
+  } return table;
+}
+
 
 
 

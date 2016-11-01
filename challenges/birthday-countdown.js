@@ -45,6 +45,4 @@ function daysUntilDate(aDate) { // aDate must be in yyyy,mm,dd format!
 
 
 
-
-
 }
