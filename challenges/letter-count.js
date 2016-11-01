@@ -31,3 +31,16 @@
 */
 
 // YOUR CODE HERE
+
+
+function letterCount(word) {
+  wordCount = {};
+  chars = "abcdefghijklmnopqrstuvwxyz";
+  for (var i=0; i<chars.length; i++) {
+    if (chars[i] == word[i]) {
+      wordCount.chars[i] = word[i];
+    }
+  } console.log(wordCount);
+} 
+
+

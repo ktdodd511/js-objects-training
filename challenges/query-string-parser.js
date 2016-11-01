@@ -47,11 +47,16 @@
 // YOUR CODE HERE
 
 
+//create empty object, then split the string by special characters, then, I believe I need to iterate through them and convert them to the object
+
+
 function parseQueryString(stringToSplit) {
-  splitString = stringToSplit.split('=');
+  newObject = {};
+  splitString = stringToSplit.split('=', '&');
   
-
-
+  splitString.forEach(function (){
+    newObject[splitString[0]] = splitString[1];
+  });
 
 }
 
